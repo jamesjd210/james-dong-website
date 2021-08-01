@@ -9,16 +9,24 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-        <div className="navigation">
-          <div className="navigation-sub">
-            <a href="" className="item">Projects </a>
-            <a href="" className="item">Resume</a>
-            <a href="" className="item">About</a>
-            <a href="" className="item">Contact</a>
+    <BrowserRouter>
+      <div className="App">
+
+          <Route exact path="/" component={About} />
+          <Route path="/projects" component={Projects} />
+          <Route path="/resume" component={Resume} />
+          <Route path="/contact" component={Contact} />
+          
+          <div className="navigation">
+            <div className="navigation-sub">
+              <Link to="/" className="item">About </Link>
+              <Link to="/projects" className="item">Projects</Link>
+              <Link to="/resume" className="item">Resume</Link>
+              <Link to="/contact" className="item">Contact</Link>
+            </div>
           </div>
-        </div>
-    </div>
+      </div>
+    </BrowserRouter>
   );
 }
 
