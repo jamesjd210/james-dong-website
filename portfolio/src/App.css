@@ -39,13 +39,21 @@
 
 .item {
   font: bold 16px Arial;
+  color: #CCCCCC;
   text-decoration: none;
-  background-color: #EEEEEE;
-  color: #333333;
+  background-color: #7395AE;
   padding: 2px 6px 2px 6px;
-  border-top: 1px solid #CCCCCC;
-  border-right: 1px solid #333333;
-  border-bottom: 1px solid #333333;
-  border-left: 1px solid #CCCCCC;
+  border-top: 2px solid #CCCCCC;
+  border-right: 2px solid #557A95;
+  border-bottom: 2px solid #557A95;
+  border-left:2px solid #CCCCCC;
   
 }
+/* Color Palette
+#5D5C61
+#379683
+#7395AE
+#557A95
+#B1A296
+#CCCCCC white
+*/
