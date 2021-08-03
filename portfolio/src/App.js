@@ -19,9 +19,9 @@ function App() {
           
           <div className="navigation">
             <div className="navigation-sub">
-              <Link to="/" className="item">About </Link>
-              <Link to="/projects" className="item">Projects</Link>
-              <Link to="/resume" className="item">Resume</Link>
+              <Link to="/" className="item">About </Link> 
+              <Link to="/projects" className="item">Projects</Link> 
+              <Link to="/resume" className="item">Resume</Link> 
               <Link to="/contact" className="item">Contact</Link>
             </div>
           </div>
