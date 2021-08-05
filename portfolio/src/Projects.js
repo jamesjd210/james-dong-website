@@ -1,10 +1,15 @@
+import { Container, Row, Col } from 'react-bootstrap';
 import React from "react"
  
 function Projects(props) {
   return (
-    <div>
-      <h1>Projects</h1>
-    </div>
+    <Container>
+      <Row>
+        <div>
+            <h1>Projects</h1>
+        </div>
+      </Row>
+    </Container>
   )
 }
  
