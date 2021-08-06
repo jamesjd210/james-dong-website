@@ -1,5 +1,6 @@
 import { Container, Row, Col } from 'react-bootstrap';
 import Thumbnail from "./Thumbnail.js"
+import QuickFitLogo from "../img/QuickFitLogo.png"
 import React from "react"
  
 function Projects(props) {
@@ -10,7 +11,7 @@ function Projects(props) {
             <h1>Projects</h1>
             <Thumbnail
               link = ""
-              image = ""
+              image = {QuickFitLogo}
               title = ""
               category = ""
               />

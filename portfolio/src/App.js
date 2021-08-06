@@ -1,9 +1,9 @@
 import logo from './logo.svg';
 import { BrowserRouter, Route, Link } from 'react-router-dom'; 
-import Resume from './Resume.js'; 
-import Projects from './Projects.js'; 
-import Contact from './Contact.js';
-import About from './About.js'; 
+import Resume from './components/Resume.js'; 
+import Projects from './components/Projects.js'; 
+import Contact from './components/Contact.js';
+import About from './components/About.js'; 
 import { Container, Row, Col } from 'react-bootstrap';
 import React from "react"
 import './App.css';
