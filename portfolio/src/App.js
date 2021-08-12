@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import { BrowserRouter, Route, Link } from 'react-router-dom'; 
 import Resume from './components/Resume.js'; 
 import Projects from './components/Projects.js'; 
